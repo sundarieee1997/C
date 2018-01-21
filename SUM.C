@@ -4,9 +4,9 @@ void main()
 int a,b,c;
 printf("enter a positive integer number:");
 scanf("%d",a);
-for(b=0;b<=a;b++)
+for(b=0;b<=a;++b)
 {
-c+=a;
+c+=b;
 }
 printf("sum=%d",c);
 getch();
