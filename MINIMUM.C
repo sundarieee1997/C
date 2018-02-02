@@ -16,6 +16,7 @@ if(small>array[i])
 {
 small=array[i];
 }
+}
 printf("\n small element in array is:%d",small);
 return(0);
 }
