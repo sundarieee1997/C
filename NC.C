@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-	int a,i;
+	int b,i;
 	printf("enter the number");
-	scanf("%d",&a);
+	scanf("%d",&b);
 	for(i=1;i<=26;i++)
 	{
-		a++;
+		b++;
 	}
-	printf("the alphabet is:%c",a);
+	printf("the alphabet is:%c",b);
 	
 	return(0);
 }
