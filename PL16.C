@@ -2,25 +2,25 @@
 #include<string.h> 
 int main() 
 {
-	char a[50],c;
+	char b[50],d;
 	int i,j,count=1,max=1,l;
 	printf("enter the string");
-    gets(a);
-    l=strlen(a);
+    gets(b);
+    l=strlen(b);
 	for(i=0;i<l;i++)
 	{
 		for(j=i+1;j<l;j++)
-		if(a[i]==a[j])
+		if(b[i]==b[j])
 		{
 			count++;
 			if(count>max)
 			{
 				max=count;
-				c=a[i];
+				d=b[i];
 			}
 		}
  
 	}
-	printf("\n%c",c);
+	printf("\n%c",d);
 	return 0;
 }
